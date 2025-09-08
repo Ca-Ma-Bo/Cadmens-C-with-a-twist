@@ -19,7 +19,7 @@ namespace HelloWorld
 
             // Step 3: You'll get a personalized greeting
             Console.WriteLine($"Hello, {name}!");
-            Console.WriteLine($"It's awesome that you enjoy {hobby}, {hobby} sounds like a very cool hobby to have indeed.");
+            Console.WriteLine($"It's awesome that you enjoy {hobby}, {name}. {hobby} sounds like a very cool hobby to have indeed.");
 
             // Step 4: Fun fact about the name you've entered
             Console.WriteLine($"Did you know the name you entered before, contains {name.Length} letters?");
@@ -40,3 +40,4 @@ namespace HelloWorld
         }
     }
 }
+
