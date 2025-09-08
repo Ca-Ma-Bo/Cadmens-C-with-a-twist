@@ -35,9 +35,17 @@ namespace HelloWorld
             int score = (name.Length * hobby.Length) % 100;
             Console.WriteLine($"\nYour secret compatibility score with {hobby} is: {score}%!");
 
+            // A edit by Bailey May. Asks you your favorite food.
+            Console.Write("What is your favorite food?");
+            string food = Console.ReadLine(); 
+            Console.WriteLine("{food}? Sounds delicious! {food} is my favorite food too!");
+
+            
+
             // Closing border
             Console.WriteLine(border);
         }
     }
 }
+
 
