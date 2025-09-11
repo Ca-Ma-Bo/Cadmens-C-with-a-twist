@@ -19,7 +19,7 @@ namespace HelloWorld
 
             // Step 3: You'll get a personalized greeting
             Console.WriteLine($"Hello, {name}!");
-            Console.WriteLine($"It's awesome that you enjoy {hobby}, {hobby} sounds like a very cool hobby to have indeed.");
+            Console.WriteLine($"It's awesome that you enjoy {hobby}, {name}. {hobby} sounds like a very cool hobby to have indeed.");
 
             // Step 4: Fun fact about the name you've entered
             Console.WriteLine($"Did you know the name you entered before, contains {name.Length} letters?");
@@ -35,8 +35,17 @@ namespace HelloWorld
             int score = (name.Length * hobby.Length) % 100;
             Console.WriteLine($"\nYour secret compatibility score with {hobby} is: {score}%!");
 
+            // A edit by Bailey May. Asks you your favorite food.
+            Console.Write("What is your favorite food?");
+            string food = Console.ReadLine(); 
+            Console.WriteLine("{food}? Sounds delicious! {food} is my favorite food too!");
+
+            
+
             // Closing border
             Console.WriteLine(border);
         }
     }
 }
+
+
