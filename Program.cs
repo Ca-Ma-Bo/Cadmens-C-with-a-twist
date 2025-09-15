@@ -39,6 +39,7 @@ namespace HelloWorld
             Console.Write("What is your favorite food?");
             string food = Console.ReadLine(); 
             Console.WriteLine("{food}? Sounds delicious! {food} is my favorite food too!");
+            ///What if added a different response from bot?
 
             
 
@@ -47,5 +48,6 @@ namespace HelloWorld
         }
     }
 }
+
 
 
